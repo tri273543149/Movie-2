@@ -1,0 +1,28 @@
+.paginated_movielist {
+  .content_box {
+    width: 80%;
+    margin: 0 auto;
+    .ant-tabs-tab-active {
+      .ant-tabs-tab-btn {
+        color: orange;
+        font-weight: 500;
+        font-size: 30px;
+      }
+    }
+    .ant-tabs-tab-btn {
+      color: #1890ff;
+      font-weight: 500;
+      font-size: 30px;
+    }
+    .ant-tabs-ink-bar {
+      position: absolute;
+      background: orange;
+      pointer-events: none;
+  }
+  }
+  .show_pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+}

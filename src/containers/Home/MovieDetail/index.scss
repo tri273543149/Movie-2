@@ -1,0 +1,212 @@
+.movie_detail {
+  padding-top: 60px;
+  background: url(./cinema.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 695px;
+  .content_box {
+    width: 100%;
+    height: 100%;
+    background: rgba($color: #000000, $alpha: 0.8);
+    padding: 100px 0;
+  }
+  .top_content {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+    font-weight: 500;
+    .img_box {
+      display: flex;
+      justify-content: center;
+      img {
+        width: 230px;
+        height: 330px;
+        border: solid 1px white;
+      }
+    }
+    .content {
+      width: 350px;
+      .ten_phim {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 0;
+      }
+      .ngay_khoi_chieu {
+        margin-bottom: 0;
+      }
+      .text {
+        margin-bottom: 0;
+        span {
+          color: wheat;
+        }
+      }
+      .button_box {
+        width: 260px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .age_limit {
+          border: none;
+          background: orangered;
+          display: block;
+          padding: 5px 10px;
+          font-weight: 500;
+          font-size: 18px;
+          border-radius: 5px;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          -ms-border-radius: 5px;
+          -o-border-radius: 5px;
+        }
+        .play_trailer {
+          background: green;
+          border: none;
+          padding: 5px 15px;
+          font-size: 18px;
+          cursor: pointer;
+          font-weight: 500;
+          letter-spacing: 1px;
+          border: solid 1px white;
+          border-radius: 5px;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          -ms-border-radius: 5px;
+          -o-border-radius: 5px;
+          transition: all 0.5s;
+          -webkit-transition: all 0.5s;
+          -moz-transition: all 0.5s;
+          -ms-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          &:hover {
+            border: solid 1px green;
+            background: white;
+            color: green;
+          }
+        }
+        .buy_ticket {
+          background: blue;
+          border: none;
+          padding: 5px 15px;
+          font-size: 18px;
+          cursor: pointer;
+          font-weight: 500;
+          letter-spacing: 1px;
+          border: solid 1px white;
+          border-radius: 5px;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          -ms-border-radius: 5px;
+          -o-border-radius: 5px;
+          transition: all 0.5s;
+          -webkit-transition: all 0.5s;
+          -moz-transition: all 0.5s;
+          -ms-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          &:hover {
+            border: solid 1px blue;
+            background: white;
+            color: blue;
+          }
+        }
+      }
+    }
+    .rating_box {
+      text-align: center;
+      margin-top: 20px;
+      span {
+        font-size: 14px;
+      }
+    }
+    .ant-progress-text {
+      color: white;
+      font-weight: 500;
+      font-size: 30px !important;
+      span{
+        font-size: 35px;
+      }
+    }
+  }
+  .he_thong_rap {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 0;
+    background: white;
+    margin-top: 50px;
+    border: solid 1px #f0f0f0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    .ant-tabs-tab {
+      border-bottom: solid 1px #f0f0f0;
+      margin-bottom: 0;
+      padding: 20px;
+    }
+    .ant-tabs-tabpane {
+      padding: 0 20px;
+      min-height: 500px;
+    }
+    .ten_he_thong_rap {
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+    .ngay_trong_tuan {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      border-bottom: solid 1px #f0f0f0;
+      padding: 8px 0;
+      p {
+        margin-bottom: 0;
+        font-weight: 500;
+      }
+      .p_2 {
+        font-size: 18px;
+      }
+      .ngay_item.key_2 {
+        p {
+          color: red;
+        }
+      }
+    }
+    .cum_rap {
+      padding: 20px 0;
+      padding-right: 20px;
+      .ten_cum_rap {
+        font-size: 24px;
+        margin-bottom: 0;
+      }
+      .dia_chi {
+        color: grey;
+      }
+    }
+    .lich_chieu_phim {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      .gio_chieu {
+        padding: 5px 15px;
+        background: #f3f3f3;
+        font-weight: 500;
+        color: green;
+        margin: 5px;
+        font-size: 18px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        span {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}

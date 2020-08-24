@@ -1,0 +1,105 @@
+.profile {
+  padding-top: 60px;
+  background: #f3f3f3;
+  padding-bottom: 100px;
+  min-height: 700px;
+  .content_box {
+    width: 70%;
+    margin: 50px auto;
+    background: white;
+  }
+  .user_info_box {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .tab_content {
+    width: 100%;
+    border: solid 1px grey;
+    padding: 20px 0;
+    padding-right: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    i {
+      font-size: 20px;
+      margin-right: 5px;
+    }
+    .tab_name {
+      font-size: 20px;
+    }
+  }
+  .item_movie {
+    margin-bottom: 20px;
+    padding: 5px 20px;
+    background: #f3f3f3;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    .movie_info {
+      font-size: 18px;
+    }
+    .item_ghe {
+      padding: 10px 0;
+      padding-left: 10px;
+    }
+  }
+  .capnhat_box {
+    width: 400px;
+    padding: 30px 0;
+    .form_group {
+      width: 100%;
+      margin-bottom: 15px;
+      .form_content {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        font-weight: 500;
+        .text {
+          color: red;
+        }
+      }
+      .form_control {
+        width: 100%;
+        padding: 5px 10px;
+        border: solid 1px grey;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+      }
+    }
+    .button_box {
+      margin-top: 5px;
+      button {
+        cursor: pointer;
+        padding: 5px 20px;
+        background: green;
+        border: solid 1px transparent;
+        color: white;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        &:focus {
+          outline: none;
+        }
+        &:hover {
+          color: green;
+          border: solid 1px green;
+          background: white;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.react_responsive_modal {
+    button {
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      &:focus {
+        outline: none;
+      }
+    }
+    i {
+      background: rgba(0, 0, 0, 0.7);
+      color: white;
+      font-size: 30px;
+      padding: 15px;
+      border: solid 1px white;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+    }
+  }
+  
