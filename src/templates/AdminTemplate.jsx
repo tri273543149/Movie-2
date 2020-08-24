@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import "./index.scss";
 import { Route } from "react-router-dom";
 import { Layout } from "antd";
+import ScrollToTop from "./ScrollToTop";
 
 const { Header, Sider, Content } = Layout;
 
@@ -10,8 +11,7 @@ const AdminLayout = (props) => {
     <Fragment>
       <Fragment>
         <Layout>
-          <Header>
-          </Header>
+          <Header></Header>
           <Layout>
             <Sider></Sider>
             <Content>{props.children}</Content>
@@ -27,9 +27,11 @@ export default function AdminTemplate({ Component, ...props }) {
     <Route
       {...props}
       render={(propsComponent) => (
-        <AdminLayout>
-          <Component {...propsComponent} />
-        </AdminLayout>
+        <ScrollToTop>
+          <AdminLayout>
+            <Component {...propsComponent} />
+          </AdminLayout>
+        </ScrollToTop>
       )}
     />
   );

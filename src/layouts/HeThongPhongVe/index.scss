@@ -1,0 +1,91 @@
+.hethongrap_component {
+  margin-top: 30px;
+  padding: 50px 0;
+  background: #f3f3f3;
+  .content_box {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .hethongrap {
+    background: white;
+    margin-top: 50px;
+    border: solid 1px #f0f0f0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    .ant-tabs-tab {
+      border-bottom: solid 1px #f0f0f0;
+      margin-bottom: 0;
+      padding: 20px;
+    }
+  }
+  .ten_he_thong_rap {
+    padding: 10px;
+    border-bottom: solid 1px #f0f0f0;
+    border-right: solid 1px #f0f0f0;
+    cursor: pointer;
+    img {
+      width: 50px;
+      height: 50px;
+      margin-right: 5px;
+    }
+    .ten_rap {
+      font-weight: 500;
+    }
+    &.active {
+      background: rgb(223, 208, 181);
+    }
+  }
+  .hethongcumrap {
+    margin-bottom: 20px;
+  }
+  .cum_rap {
+    padding: 20px 0;
+    padding-right: 20px;
+    height: 420px;
+    overflow: auto;
+  }
+  .ten_cum_rap {
+    .name {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 0;
+    }
+  }
+  .row_1 {
+    margin: 20px 0;
+  }
+  .item_phim {
+    display: flex;
+    img {
+      width: 50px;
+      height: 80px;
+      margin-right: 2px;
+    }
+    .ten_phim {
+      height: 100px;
+      overflow: hidden;
+      font-weight: 500;
+      color: green;
+    }
+  }
+  .lichchieu_item {
+    display: flex;
+    flex-wrap: wrap;
+    .item_lich_chieu {
+      background: #f3f3f3;
+      margin-bottom: 5px;
+      margin-right: 5px;
+      padding: 5px 15px;
+      font-weight: 500;
+      color: green;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+    }
+  }
+}

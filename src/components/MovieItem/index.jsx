@@ -12,7 +12,7 @@ const MovieItem = ({ movie }) => {
         <div className="hover_box">
           <ReactResponsiveModal trailer={trailer} />
           <Link to={`/movie-detail/${maPhim}`}>Xem chi tiết</Link>
-          <Link to="/muave">Mua vé</Link>
+          <Link to={`/movie-detail/${maPhim}`}>Mua vé</Link>
         </div>
       </div>
       <Card

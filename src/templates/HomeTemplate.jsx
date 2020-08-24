@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import { Route } from "react-router-dom";
 import HomeNavbar from "../components/HomeNavbar";
+import ScrollToTop from "./ScrollToTop";
 
 const HomeLayout = (props) => {
   return (
@@ -16,9 +17,11 @@ export default function HomeTemplate({ Component, ...props }) {
     <Route
       {...props}
       render={(propsComponent) => (
-        <HomeLayout>
-          <Component {...propsComponent} />
-        </HomeLayout>
+        <ScrollToTop>
+          <HomeLayout>
+            <Component {...propsComponent} />
+          </HomeLayout>
+        </ScrollToTop>
       )}
     />
   );

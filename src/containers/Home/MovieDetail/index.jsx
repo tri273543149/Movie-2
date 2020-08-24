@@ -4,6 +4,7 @@ import { movieService } from "../../../services/quanLyPhimService";
 import { NavLink } from "react-router-dom";
 import { Row, Col, Progress, Tabs, Rate } from "antd";
 import Moment from "react-moment";
+import Swal from "sweetalert2";
 
 const { TabPane } = Tabs;
 
@@ -52,6 +53,8 @@ const MovieDetail = ({ match }) => {
   useEffect(() => {
     initialFetch();
   }, [initialFetch]);
+
+  
 
   let {
     tenPhim,
